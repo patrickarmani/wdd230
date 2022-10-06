@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley&family=Oswald:wght@300&family=Spartan:wght@700&family=Roboto&family=Secular+One&display=swap');
+body {
+  background-color: white;
+}
+h1 {
+  
+  width: 100% ;
+  text-align: center;
+
+}
+p{
+  font-family: 'Oswald', serif; 
+  font-size: 1em;
+  line-height: 1.15em;
+  padding: 10px;
+  color: #120f2c;
+  margin-top: 0;
+  margin: 0em;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: rgb(75, 86, 95);
+}
+
+#currentdate {
+  background-color: blueviolet;
+}
