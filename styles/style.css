@@ -1,20 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Besley&family=Oswald:wght@300&family=Spartan:wght@700&family=Roboto&family=Secular+One&display=swap');
 body {
   background-color: white;
+  font: size 20px;
+  margin: 0;
 }
 h1 {
-  
+  padding: 1rem;
   width: 100% ;
   text-align: center;
-  color:rgb(255, 255, 255)
-
+  color: #3F88C5
+  
 }
+
 p{
   font-family: 'Oswald', serif; 
   font-size: 1em;
   line-height: 1.15em;
   padding: 10px;
-  color: #120f2c;
+  color: #042B43;
   margin-top: 0;
   margin: 0em;
 }
@@ -22,11 +25,12 @@ p{
 header {
   display: flex;
   align-items: center;
-  background-color: rgb(75, 86, 95);
+  background-color: #042B43;;
+  
 }
 
 #currentdate {
-  background-color: rgb(43, 226, 217);
+  background-color: #3F88C5;
   padding: 10px;
   color: rgb(18, 1, 22);
   height: 12px;
@@ -38,6 +42,6 @@ footer {
   display: flex;
   justify-content: center;
   padding: 7px;
-  background-color: #0b1825;
+  background-color: #042B43;;
   color: #fff;
 }
