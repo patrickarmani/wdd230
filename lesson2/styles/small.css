@@ -1,62 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200;400&display=swap');
+
+:root {
+  --headerColor: #032B43;
+  --cardBackgroundColor: #dddddd;
+  --cardheaderColor:  #ffba08;
+}
+
+
 body {
     margin: 20px auto;
     max-width: 100%;
+    font-family: 'Roboto' , sans-serif;
   }
-  
-  body,
-  main {
-    background-color: white;
+
+header {
+  background-color: var(--headerColor);
+  text-align: center;
+  padding: 1% 0 2% 0 ;
+  margin-top: 0;
+  font-weight: bold;
+  font-size: 1.3em;
+  color: #3F88C5;
   }
-  
-  main {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 1em;
+
+main {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1em;
+  padding-top: 1%;
   }
-  
-  h1 {
-    font-size: 35px;
+
+.card {
+  background-color: var(--cardBackgroundColor);
+  margin: 0 1em 1em 1em;
+  padding: 0 15px 15px 15px;
+  border: 1px solid #ffba08; 
+  border-radius: 7px 7px 0 0;
+  }   
+
+.title {
+  padding: 5%;
+  margin: 0 -16px 1% -16px;
+  background-color: var(--cardheaderColor);
+  color: #FFFF;
+  border-radius: 7px 7px 0 0;
+  font-size: 10;
+  font-kerning: 5;
   }
+
+.card h2 {
+  margin: 0;
+  color-scheme: white;
+}
+
+.card img {
+  width: 80%;
+  height: auto;
+  margin: 2% 10% 2% 10%;
+  border-radius: 10px;
+  background-color:  #ffba08;
   
-  h2 {
-    font-size: 25px;
-  }
-  
-  h3 {
-    font-size: 20px;
-    background-color: #042B43;
-    margin: 0px;
-    padding: 10px;
-  }
-  
-  header,
-  h3 {
-    font-family: "Arvo", Georgia, serif;
-    color: #3F88C5;
-  }
-  
-  header,
+}
+
   footer {
+    width: 100%;
     text-align: center;
     background-color: #042B43;
-    padding: 10px 0px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color:#3F88C5;
   }
-  
-  section,
-  img {
-    border: 1px solid #ffba08;
-  }
-  
-  section,
-  footer {
-    margin: 10px;
-  }
-  
-  section {
-    border-radius: 10px;
-    background-color:  #ffba08;
-    padding: 10px 20px;
-  }
+
   
   img {
     width: 100%;
@@ -64,15 +79,23 @@ body {
     justify-self: center;
     border: 2px solid  #ffba08;
     margin-top: 10px;
+    margin-left: 1em;
   }
   
-  p,
-  footer {
-    font-family: "Inter", Helvetica, sans-serif;
-    font-size: 16px;
-  }
+h2 {
+  text-align: center;
+}
+
+h3 {
   
-  img p {
-    padding-bottom: 15px;
-  }
+  text-align: left;
+  background-color:  #3F88C5;
+  margin: 5px;
+  padding: 7px
+}
+
+h4 {
+  text-align: justify;
+  font-weight: lighter;
   
+}
