@@ -9,22 +9,22 @@
       margin: 10px 0px;
     }
   
-    section.topic1 {
+    card.first {
       grid-column: 1;
       grid-row: 1;
     }
   
-    section.topic2 {
+    card.second {
       grid-column: 2;
       grid-row: 1;
     }
   
-    section.topic3 {
+    card.third {
       grid-column: 1/3;
       grid-row: 2;
     }
   
-    .image3 {
+    .binance {
       width: 100%;
       height: auto;
     }

@@ -4,22 +4,22 @@
       grid-template-rows: none;
     }
   
-    section.topic1 {
+    card.first {
       grid-column: 1;
       grid-row: none;
     }
   
-    section.topic2 {
+    card.second {
       grid-column: 2;
       grid-row: none;
     }
   
-    section.topic3 {
+    card.third {
       grid-column: 3;
       grid-row: none;
     }
   
-    img.image3 {
+    img.binance {
       height: 622px;
       width: 100%;
     }
